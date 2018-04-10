@@ -1,0 +1,11 @@
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk Player.csprojResolveAssemblyReference.cache
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk_Player.Form1.resources
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk_Player.Form2.resources
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk_Player.Properties.Resources.resources
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk Player.csproj.GenerateResource.Cache
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk Player.csproj.CoreCompileInputs.cache
+D:\Projects\VK Player\Vk Player\bin\Debug\Vk Player.exe.config
+D:\Projects\VK Player\Vk Player\bin\Debug\Vk Player.exe
+D:\Projects\VK Player\Vk Player\bin\Debug\Vk Player.pdb
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk Player.exe
+D:\Projects\VK Player\Vk Player\obj\Debug\Vk Player.pdb
