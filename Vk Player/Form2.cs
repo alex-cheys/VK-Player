@@ -30,6 +30,21 @@ namespace Vk_Player
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
             toolStripStatusLabel1.Text = "Загружено";
+
+            try
+            {
+                string url = webBrowser1.Url.ToString();
+                string l = url.Split('#')[1]; // Разделить строку по символу # и запихнуть в массив, получить access token
+                if (l[0] == 'a')
+                {
+                    Settings1.Default.token = l.Split('&')[0].Split('=')[1]; // Выделяем access token из строки
+                    Settings1.Default.id = l.Split('=')[3]; // Получаем id
+                    Settings1.Default.auth = true;
+                    MessageBox.Show(Settings1.Default.token + " " + Settings1.Default.id);
+                    this.Close();
+                }
+            }
+            catch { }
         }
     }
 }
