@@ -19,7 +19,7 @@ namespace Vk_Player
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https://oauth.vk.com/authorize?client_id=3649985&scope=audio&redirect_uri=https://oauth.vk.com/blank.html&display=popup&v=5.74&response_type=token");
+            webBrowser1.Navigate("https://oauth.vk.com/authorize?client_id=6443821&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.52");
         }
     }
 }
