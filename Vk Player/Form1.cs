@@ -19,7 +19,7 @@ namespace Vk_Player
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            new.Form2().Show(); // Вызов второй формы
+            new Form2().Show(); // Вызов второй формы
         }
     }
 }
