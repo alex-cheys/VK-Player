@@ -21,5 +21,15 @@ namespace Vk_Player
         {
             webBrowser1.Navigate("https://oauth.vk.com/authorize?client_id=6443821&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.52");
         }
+
+        private void webBrowser1_Navigating(object sender, WebBrowserNavigatingEventArgs e)
+        {
+            toolStripStatusLabel1.Text = "Загрузка...";
+        }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            toolStripStatusLabel1.Text = "Загружено";
+        }
     }
 }
